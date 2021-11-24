@@ -39,7 +39,7 @@ $ docker run -d \
          -p 80:8080 \
          -p 443:8443 \
          -v "${PWD}/certs:/etc/letsencrypt" \
-         -e SERVER_NAME=www.example.com \
+         -e SERVER_NAME=mcaj.nerd411.net \
          -e AUTO_LETS_ENCRYPT=yes \
          -e USE_REVERSE_PROXY=yes \
          -e REVERSE_PROXY_URL=/ \
